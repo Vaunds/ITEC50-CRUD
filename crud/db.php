@@ -6,11 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Hello, World</h1>
     <?php
     $age = 15;
 
     if($age >= 18){
         echo "<h1>You are not minor</h1>";
+    }else{
+        echo "<h1>You are a minor</h1>";
     }
     ?>
 </body>
